@@ -27,7 +27,6 @@ public class SocketClientDemo1 : MonoBehaviour {
 
         //建立异步连接服务 , Connected 进行监听
         client.BeginConnect(address, new AsyncCallback(Connected), null); 
-        base.
     }
 	
 	// Update is called once per frame
